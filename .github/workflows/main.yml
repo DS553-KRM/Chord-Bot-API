@@ -23,7 +23,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          HF_URL="https://rjorgec:${HF_TOKEN}@huggingface.co/spaces/DS553-Music-Bot/ChordBot-API"
+          HF_URL="https://rjorgec:${HF_TOKEN}@huggingface.co/spaces/DS553-Music-Bot/Chord-Bot-API"
           if git remote get-url hf >/dev/null 2>&1; then
             git remote set-url hf "$HF_URL"
           else
