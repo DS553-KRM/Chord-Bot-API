@@ -1,28 +1,28 @@
-# ---
+---
 
-# title: Chord Bot API
+title: Chord Bot API
 
-# emoji: 📊
+emoji: 📊
 
-# colorFrom: green
+colorFrom: green
 
-# colorTo: yellow
+colorTo: yellow
 
-# sdk: gradio
+sdk: gradio
 
-# sdk\_version: 5.45.0
+sdk\_version: 5.45.0
 
-# hf\_oauth: true
+hf\_oauth: true
 
-# app\_file: app.py
+app\_file: app.py
 
-# pinned: false
+pinned: false
 
-# short\_description: Input notes, space calls API model and outputs a chord.
+short\_description: Input notes, space calls API model and outputs a chord.
 
-# ---
+---
 
-# 
 
-# Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
