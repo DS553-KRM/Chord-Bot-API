@@ -25,7 +25,6 @@ client = InferenceClient("google/flan-t5-small")
 def predict_chord(notes: str):
     """
     Takes a comma-separated string of notes and predicts the chord.
-    First tries rule-based, then falls back to the LLM.
     """
     if not notes.strip():
         return "Please enter 2 or more notes."
