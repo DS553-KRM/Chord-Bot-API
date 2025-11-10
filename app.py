@@ -1,5 +1,11 @@
 import gradio as gr
 from huggingface_hub import InferenceClient
+from metrics import (
+    init_metrics,
+    SERVICE_NAME,
+    ACTIVE_REQUESTS,
+    instrument_chord_request,
+)
 
 # --- Rule-based chord dictionary ---
 CHORDS = {
