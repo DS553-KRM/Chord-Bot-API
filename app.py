@@ -12,6 +12,11 @@ CHORDS = {
     frozenset(["F", "A", "C"]): "F Major",
 }
 
+init_metrics(
+    port=int(os.getenv("METRICS_PORT", "8000")),
+    service_name=os.getenv("SERVICE_NAME", "chord-bot-api"),
+)
+
 def identify_chord(notes):
     """
     Identify chord name from a list of notes using dictionary lookup.
