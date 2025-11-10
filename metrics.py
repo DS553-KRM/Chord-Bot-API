@@ -10,7 +10,7 @@ from prometheus_client import (
     start_http_server,
 )
 
-SERVICE_NAME = os.getenv("SERVICE_NAME", "chord-bot-local")
+SERVICE_NAME = os.getenv("SERVICE_NAME", "chord-bot-api")
 
 #tot requests by status
 REQUEST_COUNT = Counter(
