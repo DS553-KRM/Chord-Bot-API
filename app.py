@@ -73,7 +73,7 @@ if __name__ == "__main__":
     import os
 
     host = os.getenv("GRADIO_SERVER_NAME", "0.0.0.0")
-    port = int(os.getenv("GRADIO_SERVER_PORT", "8000"))
+    port = int(os.getenv("GRADIO_SERVER_PORT", "7860"))
 
     demo.launch(server_name=host, server_port=port, share=True)
 
