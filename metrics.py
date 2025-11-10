@@ -57,11 +57,6 @@ ACTIVE_REQUESTS = Gauge(
 
 
 def init_metrics(port: int = 8000, service_name: str | None = None) -> None:
-    """
-    Start the Prometheus metrics HTTP server on `port`.
-
-    Call this once at app startup (before serving requests).
-    """
     global SERVICE_NAME
 
     if service_name is not None:
